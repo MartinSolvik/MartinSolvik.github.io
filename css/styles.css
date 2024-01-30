@@ -9,34 +9,34 @@ body {
 /* Position the "No" button absolutely within body */
 #noButton {
     position: absolute;
-    margin-left: auto;
+    margin-left: 150px;
     transition: 0.5s;
     /* Smooth movement */
 }
 
 #yesButton {
     position: absolute;
-    margin-right: auto;
+    margin-right: 150px;
     /* Smooth movement */
 }
 
 .header_text {
     font-family: 'Nunito';
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
     text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .buttons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
-    margin-left: auto;
+    margin-top: 20px;
+    margin-left: 20px;
     /* optional: adds some space between the buttons */
 }
 
@@ -46,7 +46,7 @@ body {
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 40px;
+    font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
     border: none;
@@ -62,10 +62,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    text-align:center ;
+    margin-left: 90px;
 }
-
-.headertext {text-align: center;}
-
-.buttons {text-align: center;}
